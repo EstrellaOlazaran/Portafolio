@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda telefonica</title>
+    <style>
+
+        .tablec{
+            display:flex;
+            justify-content:center;
+            align-content:center;
+            height:100vh;
+        }
+
+        table {
+            width: 10%;
+            border-collapse: collapse;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 9px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #ffa0a0;
+            color: #000;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffa0a0;
+        }
+
+        tr:hover {
+            background-color: #fe8d8d;
+    </style>
+</head>
+<body>
+    <div class="tablec">
+        <table>
+            <thead>
+                <tr>
+                    <th>Apellido</th>
+                    <th>Nombre</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rosas</td>
+                    <td>Gonzalo</td>
+                    <td>55 123 45 67</td>
+                </tr>
+
+                <tr>
+                    <td>Aguilar</td>
+                    <td>Horacio</td>
+                    <td>834 159 75 38</td>
+                </tr>
+
+                <tr>
+                    <td>Gutierrez</td>
+                    <td>Alejandro</td>
+                    <td>834 789 45 61</td>
+                </tr>
+
+                <tr>
+                    <td>Martinez</td>
+                    <td>Martin</td>
+                    <td>834 156 23 12</td>
+                </tr>
+
+                <tr>
+                    <td>Panfila</td>
+                    <td>Kiara</td>
+                    <td>834 789 45 61</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
